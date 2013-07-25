@@ -1,0 +1,45 @@
+# chrome
+https://www.google.com/chrome
+
+# iTerm2
+http://www.iterm2.com
+
+# solarized color scheme
+http://ethanschoonover.com/solarized
+
+# Xcode command line tools
+https://developer.apple.com/downloads
+
+# get fonts: Consolas (for macvim), Menlo for Powerline (for iTerm2)
+https://github.com/tsenart/sight/blob/master/css/Consolas.ttf
+https://github.com/Lokaltog/powerline-fonts/tree/master/Menlo
+
+# prepare SSH keys
+
+# Homebrew
+http://brew.sh/
+
+# git
+brew install git
+
+# clean_restore
+git clone git@github.com:renlijie/clean_restore.git
+cp ~/clean_restore/_gitconfig ~/.gitconfig
+cp ~/clean_restore/_tmux.conf ~/.tmux.conf
+
+# configure iTerm2
+# import solarized to profiles
+# Preferences - General - Preferences - Load
+~/clean_restore/com.googlecode.iterm2.plist
+
+# oh-my-zsh
+curl -L https://github.com/renlijie/oh-my-zsh/raw/master/tools/install.sh | sh
+
+# macvim
+git clone git@github.com:renlijie/vim.git
+mv vim .vim
+~/.vim/clean_restore.sh
+
+mkdir code
+
+

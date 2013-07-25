@@ -1,0 +1,16 @@
+[branch "master"]
+	rebase = true
+[branch]
+	autosetuprebase = always
+[user]
+	name = Lijie Ren
+	email = lijie.cs@gmail.com
+[core]
+	ignorecase = false
+	autocrlf = input
+	editor = mvim -f
+
+[alias]
+  lg = "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
+[credential]
+	helper = osxkeychain
