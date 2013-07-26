@@ -7,12 +7,11 @@ http://www.iterm2.com
 # solarized color scheme
 http://ethanschoonover.com/solarized
 
-# Xcode command line tools
+# Xcode (for YouCompleteMe) & command line tools (for Homebrew)
 https://developer.apple.com/downloads
 
-# get fonts: Consolas (for macvim), Menlo for Powerline (for iTerm2)
-https://github.com/tsenart/sight/blob/master/css/Consolas.ttf
-https://github.com/Lokaltog/powerline-fonts/tree/master/Menlo
+# BetterTouchTool
+http://blog.boastr.net
 
 # prepare SSH keys
 
@@ -26,6 +25,8 @@ brew install git
 git clone git@github.com:renlijie/clean_restore.git
 cp ~/clean_restore/_gitconfig ~/.gitconfig
 cp ~/clean_restore/_tmux.conf ~/.tmux.conf
+
+# install fonts: Consolas (for macvim), Menlo-Powerline.otf (for iTerm2)
 
 # configure iTerm2
 # import solarized to profiles
@@ -41,5 +42,4 @@ mv vim .vim
 ~/.vim/clean_restore.sh
 
 mkdir code
-
 
