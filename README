@@ -26,7 +26,7 @@ git clone git@github.com:renlijie/clean_restore.git
 cp ~/clean_restore/_gitconfig ~/.gitconfig
 cp ~/clean_restore/_tmux.conf ~/.tmux.conf
 
-# install fonts: Consolas (for macvim), Menlo-Powerline.otf (for iTerm2)
+# install fonts: Consolas (for macvim), Meslo-Powerline.otf (for iTerm2)
 
 # configure iTerm2
 # import solarized to profiles
