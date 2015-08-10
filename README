@@ -7,6 +7,7 @@ http://www.iterm2.com
 # solarized color scheme
 http://ethanschoonover.com/solarized
 
+optional:
 # Xcode (for YouCompleteMe) & command line tools (for Homebrew)
 https://developer.apple.com/downloads
 
@@ -14,6 +15,7 @@ https://developer.apple.com/downloads
 http://blog.boastr.net
 
 # prepare SSH keys
+https://help.github.com/articles/generating-ssh-keys/
 
 # Homebrew
 http://brew.sh/
@@ -30,16 +32,12 @@ cp ~/clean_restore/_tmux.conf ~/.tmux.conf
 
 # configure iTerm2
 # import solarized to profiles
-# Preferences - General - Preferences - Load
-~/clean_restore/com.googlecode.iterm2.plist
 
 # oh-my-zsh
 curl -L https://github.com/renlijie/oh-my-zsh/raw/master/tools/install.sh | sh
 
-# macvim
+# vim
 git clone git@github.com:renlijie/vim.git
 mv vim .vim
 ~/.vim/clean_restore.sh
-
-mkdir code
 
